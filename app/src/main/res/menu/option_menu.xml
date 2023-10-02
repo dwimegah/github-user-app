@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/menu1"
+            android:icon="@drawable/favorite_filled"
+            android:title="@string/menu1"
+            app:showAsAction="always">
+        </item>
+        <item
+            android:id="@+id/menu2"
+            android:icon="@drawable/baseline_brightness_5_24"
+            android:title="@string/menu2"
+            app:showAsAction="always" />
+    </group>
+</menu>
