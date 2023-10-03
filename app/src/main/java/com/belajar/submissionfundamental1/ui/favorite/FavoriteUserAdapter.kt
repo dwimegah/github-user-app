@@ -33,6 +33,7 @@ class FavoriteUserAdapter :
             binding.root.setOnClickListener {
                 val intentDetail = Intent(binding.root.context, UserDetail::class.java)
                 intentDetail.putExtra("username", itemName.username)
+                intentDetail.putExtra("avatar", itemName.avatarUrl)
                 binding.root.context.startActivity(intentDetail)
             }
         }
